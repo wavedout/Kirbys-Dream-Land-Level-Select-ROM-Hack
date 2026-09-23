@@ -2,7 +2,7 @@
 
 A small quality-of-life ROM hack for the original **Kirby's Dream Land** on Game Boy. It adds a clean title-screen level selector while keeping the game itself essentially unchanged.
 
-![Normal Mode title screen](screenshots/01-title-normal.png) ![Extra Mode title screen](screenshots/02-title-extra.png)
+![Normal Mode title screen](screenshots/01-title-normal.png)
 
 ## Features
 
