@@ -19,7 +19,7 @@ Copy/paste reference for the submission form.
 ## Website / download
 
 - **Project / homepage:** https://github.com/wavedout/Kirbys-Dream-Land-Level-Select-ROM-Hack
-- **Direct release download:** https://github.com/wavedout/Kirbys-Dream-Land-Level-Select-ROM-Hack/releases/download/v1.0/Kirbys-Dream-Land-Level-Select-v1.0.zip
+- **Direct release download:** https://raw.githubusercontent.com/wavedout/Kirbys-Dream-Land-Level-Select-ROM-Hack/main/Kirbys-Dream-Land-Level-Select-v1.0.zip
 
 Use the direct release-asset URL for the download field so users do not have to navigate GitHub. Keep the normal repository URL as the project/homepage link.
 
