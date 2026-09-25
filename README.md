@@ -35,6 +35,12 @@ MD5: `A66E4918EDCD042EC171A57FE3CE36C3`
 
 SHA-1: `90979BAA1D0E24B41B5C304C5DDAF77450692D5A`
 
+## Screenshots
+
+| Normal Mode | Extra Mode | Configuration Mode | Gameplay |
+| --- | --- | --- | --- |
+| ![Stage selection in Normal Mode](screenshots/01-title-normal.png) | ![Stage selection in Extra Mode](screenshots/02-title-extra.png) | ![Original Configuration Mode](screenshots/03-config-mode.png) | ![Stage 3 gameplay](screenshots/04-stage-3-gameplay.png) |
+
 ## Download
 
 See the **Releases** section for the packaged release.
