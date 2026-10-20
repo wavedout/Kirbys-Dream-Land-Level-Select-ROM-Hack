@@ -1,56 +1,57 @@
 # Kirby's Dream Land - Level Select
 
-A small quality-of-life ROM hack for **Kirby's Dream Land** on Nintendo Game Boy.
+Version 1.1
 
-This patch adds a simple level select directly to the title screen while otherwise preserving the original game.
+Adds a configurable level select to Kirby's Dream Land and gives easy access to the game's extra options.
+
+- Select any of the game's five stages
+- Choose Normal or Extra Mode
+- Access the original Configuration Mode directly from the title screen
+- Updated title menu and configuration menu design
 
 ## Controls
 
 On the title screen:
 
-- **A** — Cycle through Stage 1–5
-- **B** — Toggle Normal Mode / Extra Mode
-- **SELECT** — Open the original Configuration Mode
-- **START** — Begin the selected stage and mode
+- Up / Down: select START or CONFIG
+- A / Start: confirm the selected entry
 
-The original Extra Game and Configuration Mode secret codes are preserved.
+START begins an ordinary game with the original defaults. CONFIG opens the expanded Configuration Mode.
+
+In Configuration Mode:
+
+- Up / Down: select an option
+- Left / Right: change stage, game mode, vitality, or lives
+- A: activate SOUND TEST or START
+- Start: launch with the displayed settings from any row
+- B: return to the title screen
+
+STAGE offers 1-5, GAME offers NORMAL or EXTRA, VITAL offers 01-06, and KIRBY offers 01-09, then 10 through 90 in steps of 10, and 99. A new configuration session starts with the ordinary defaults. B cancels custom settings; title-screen START still begins an ordinary game.
+
+In Sound Test, A plays the selected item; B or Start returns to Configuration Mode and retains the current settings. The original Extra Game and Configuration Mode secret codes remain available.
 
 ## Patching
 
-Apply either the `.bps` or `.ips` patch to a clean copy of:
+Apply either the .bps or .ips patch to a clean copy of:
 
-**Kirby's Dream Land (USA, Europe)**
+Kirby's Dream Land (USA, Europe)
 
-BPS is recommended.
+BPS is recommended. Apply only one patch to the original ROM, rather than patching an older hacked ROM.
 
-Do not apply both patches.
-
-https://www.romhacking.net/patch/
+Online patcher: https://www.romhacking.net/patch/
 
 ## Source ROM
 
-CRC32: `40F25740`
-
-MD5: `A66E4918EDCD042EC171A57FE3CE36C3`
-
-SHA-1: `90979BAA1D0E24B41B5C304C5DDAF77450692D5A`
-
-## Screenshots
-
-| Normal Mode | Extra Mode | Configuration Mode | Gameplay |
-| --- | --- | --- | --- |
-| ![Stage selection in Normal Mode](screenshots/01-title-normal.png) | ![Stage selection in Extra Mode](screenshots/02-title-extra.png) | ![Original Configuration Mode](screenshots/03-config-mode.png) | ![Stage 3 gameplay](screenshots/04-stage-3-gameplay.png) |
+CRC32: 40F25740
+MD5: A66E4918EDCD042EC171A57FE3CE36C3
+SHA-1: 90979BAA1D0E24B41B5C304C5DDAF77450692D5A
 
 ## Download
 
-See the **Releases** section for the packaged release.
+The packaged v1.1 download is available in this repository's Releases section.
 
-## Notes
+## Screenshots
 
-Configuration Mode behaves like the original game: Start does not launch a stage from that screen. Choose Exit to return to the title screen; your selected stage/mode and configuration settings are retained.
-
-Tested in SameBoy 1.0.3, including all five stages, Normal and Extra Mode, Configuration Mode, original secret codes, held-button input, and long title-screen idle testing.
-
-## Version
-
-v1.0 — Initial release
+![Screenshot 1](screenshots/01-title-menu.png)
+![Screenshot 2](screenshots/02-configuration.png)
+![Screenshot 3](screenshots/03-gameplay.png)
